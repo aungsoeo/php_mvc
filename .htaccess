@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /mvc/
+RewriteRule ^(\w+)/?$ index.php?user [L,QSA]
+RewriteRule . index.php [L,QSA]
